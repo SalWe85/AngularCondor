@@ -6,7 +6,7 @@ import { AfterViewInit, Component, OnInit, ViewChild } from '@angular/core';
   styleUrls: ['./personal-data.component.css']
 })
 export class PersonalDataComponent implements OnInit {
-
+  
 
   posts = [
     {
@@ -42,8 +42,9 @@ export class PersonalDataComponent implements OnInit {
   ]
 
   onButtonClick() {
-   
-    console.log("dfalfjdlsfj")
+  //  let testValue = '';
+   // testValue = (<HTMLInputElement>document.getElementById("test")).value;
+  //  console.log("testValue")
   }
 
   constructor() { }

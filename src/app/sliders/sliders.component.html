@@ -1,0 +1,9 @@
+<fieldset class="border rounded-3 p-3">
+    <legend class="title w-auto px-3">Sliders</legend>
+    <div class="row">
+        <mat-slider (input)="pitch($event)" #slider id="slider" min="1" max="1140" step="1" value="500"></mat-slider>        
+    <div class="row"></div>
+    <input class="form-control" [value]="slider.value"/> 
+    </div> 
+     
+</fieldset>
