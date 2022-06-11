@@ -1,4 +1,4 @@
-import { Component, OnInit } from '@angular/core';
+import { AfterViewInit, Component, OnInit, ViewChild } from '@angular/core';
 
 @Component({
   selector: 'app-personal-data',
@@ -7,34 +7,47 @@ import { Component, OnInit } from '@angular/core';
 })
 export class PersonalDataComponent implements OnInit {
 
+
   posts = [
     {
       placeholder : 'Player ID',
-      value : '1'
+      value : '1',
+      disabled : 'disabled'
     },
     {
       placeholder : 'Username',
-      value : 'player'
+      value : 'player',
+      disabled : 'disabled'
     },
     {
       placeholder : 'Affiliate ID',
-      value : ''
+      value : '',
+      disabled : 'disabled'
     },
     {
       placeholder : 'Affiliate Username',
-      value : ''
+      value : '',
+      disabled : 'disabled'
     },
     {
       placeholder : 'First Name',
-      value : ''
+      value : '',
+      disabled : ''
     },
     {
       placeholder : 'Last Name',
-      value : ''
+      value : '',
+      disabled : ''
     }
   ]
 
+  onButtonClick() {
+   
+    console.log("dfalfjdlsfj")
+  }
+
   constructor() { }
+ 
 
   ngOnInit(): void {
   }

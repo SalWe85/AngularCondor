@@ -2,15 +2,17 @@
 <fieldset class="border rounded-3 p-3">
     <legend class="title w-auto px-3">Personal Data</legend>
     <div class="row">
-        <div class="col-md-4">
             <app-input-value
-            *ngFor = "let post of posts"
-            [placeholder] = "post.placeholder"
-            [value] = "post.value"
+                *ngFor = "let post of posts"
+                [placeholder] = "post.placeholder"
+                [value] = "post.value"
+                [disabled] = "post.disabled"
             ></app-input-value>
-        </div>
-        <div class="col-md-4">fasdfa</div>
-    </div>
+        </div> 
+      
+    <button type="button" class="btn btn-block btn-primary">Submit</button>  
+
+     
 </fieldset>
 </div>
 

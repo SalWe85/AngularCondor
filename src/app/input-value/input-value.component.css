@@ -1,0 +1,22 @@
+.form-control {
+    height: 2vw;
+    width: 19vw;
+}
+.red {
+    font-size: 9px;
+    color: red;
+    position: absolute;
+}
+@media only screen and (max-width: 800px) {
+    .form-control {
+        height: 4vw;
+        width: 25vw;
+    }
+    
+}
+@media only screen and (max-width: 600px) {
+    .form-control {
+        height: 6vw;
+        width: 50vw;
+    }
+}
