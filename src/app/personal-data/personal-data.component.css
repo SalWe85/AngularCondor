@@ -1,0 +1,9 @@
+.card {
+    padding: 2em;
+    margin-top: 2em;
+    margin-left: 10em;
+    margin-right: 10em;
+}
+.title {
+    font-weight: 700;
+}
